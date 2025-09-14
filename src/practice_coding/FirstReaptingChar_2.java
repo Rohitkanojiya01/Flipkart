@@ -2,12 +2,12 @@ package practice_coding;
 
 import java.util.HashMap;
 
-public class FirstReaptingChar_2 {
+public class FirstReaptingChar_2 {		// Problem : First Letter to Appear Twice - Looking forward
 
 	public static void main(String[] args) {
 		 
 		String str = "abndsfba";
-		System.out.println(firstRepeatingChar(str));
+		System.out.println(firstRepeatingChar(str));		// calling function and printing character
 	}
 
 	public static char firstRepeatingChar(String str) {
