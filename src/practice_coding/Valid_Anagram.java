@@ -22,7 +22,7 @@ public class Valid_Anagram {
 		int l1 = str1.length();
 		int l2 = str2.length();
 		
-		if(l1 != l2)					// if string lengths differs, not an anagram	
+		if(l1 != l2)					// if string lengths differs, not an anagram - considering space 
 			return false;
 		
 		char[] freq = new char[26];		// frequency array for lowercase letters
