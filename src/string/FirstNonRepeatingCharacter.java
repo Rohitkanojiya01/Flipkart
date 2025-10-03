@@ -1,16 +1,16 @@
-package practice_coding;
+package string;
 
-import java.util.HashMap;
+import java.util.HashMap; // Problem: First Unique Character in a String
 
-public class FirstReaptingChar_2 {		// Problem : First Letter to Appear Twice - Looking forward
+public class FirstNonRepeatingCharacter {
 
-	public static void main(String[] args) {
-		 
-		String str = "abndsfba";
-		System.out.println(firstRepeatingChar(str));		// calling function and printing character
-	}
+    public static void main(String[] args) {
 
-	public static char firstRepeatingChar(String str) {
+        String str = "applae";
+        System.out.println(firstNonrepeatingchar(str)); // Calling function and printing char
+    }
+
+    public static char firstNonrepeatingchar(String str) {
 
         char arr[] = str.toCharArray();
 
@@ -30,7 +30,7 @@ public class FirstReaptingChar_2 {		// Problem : First Letter to Appear Twice - 
         // Find first non-repeating character
         for (int i = 0; i < arr.length; i++) {
             char ch = arr[i];
-            if (hm.get(ch) == 2) { // first character having count 2 will be first-repeating character
+            if (hm.get(ch) == 1) { // character having count 1 will be non-repeating character
                 return ch; // return character
             }
         }

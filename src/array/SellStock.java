@@ -1,4 +1,4 @@
-package practice_coding;
+package array;
 
 public class SellStock {
 

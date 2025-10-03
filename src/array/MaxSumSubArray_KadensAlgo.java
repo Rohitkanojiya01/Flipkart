@@ -1,4 +1,4 @@
-package practice_coding;
+package array;
 
 public class MaxSumSubArray_KadensAlgo {	  // Problem : Find Maximum sum sub array ( Kaden's Algorithm )
 

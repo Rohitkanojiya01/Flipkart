@@ -1,4 +1,4 @@
-package practice_coding;
+package string;
 
 import java.util.HashSet;
 
